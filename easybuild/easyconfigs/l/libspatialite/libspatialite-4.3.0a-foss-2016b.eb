@@ -18,9 +18,10 @@ dependencies = [
     ('GEOS', '3.6.1', '-Python-2.7.12'),
     ('SQLite', '3.13.0'),
     ('PROJ', '4.9.3'),
+    ('libxml2', '2.9.4')
 ]
 
-builddependencies = [('CMake', '3.7.1')]
+builddependencies = [('CMake', '3.7.1'),  ('libxml2', '2.9.4')]
 
 configopts = '--disable-geosadvanced'
 
